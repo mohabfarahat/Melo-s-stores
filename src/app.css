@@ -1,0 +1,41 @@
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --color-ink: #0d0d0d;
+  --color-muted: #5c5852;
+  --color-paper: #ffffff;
+  --color-stone: #f3f2ef;
+  --color-line: #e6e4df;
+
+  font-family: var(--font-body);
+  line-height: 1.5;
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  transition: color 200ms;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 3px;
+}

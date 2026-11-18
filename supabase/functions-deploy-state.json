@@ -1,0 +1,17 @@
+{
+  "projectId": "72763792",
+  "functions": {
+    "join-owner": {
+      "hasChanged": false,
+      "hash": "419e01badad27d9d650a63306ae868ad956281876217be84af3a537d9c80adcb"
+    },
+    "place-order": {
+      "hasChanged": false,
+      "hash": "da928efdd211e90668c9c7c7ca5425beab144d2f827eda5a2677702843789b82"
+    },
+    "track-order": {
+      "hasChanged": false,
+      "hash": "9bb8bb97d6a141ba3a7876cbabcbaa59bff2ca0b30d3fc8d9d4a5320599fb1f1"
+    }
+  }
+}

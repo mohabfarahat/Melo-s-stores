@@ -1,0 +1,8 @@
+[functions.place-order]
+verify_jwt = false
+
+[functions.join-owner]
+verify_jwt = false
+
+[functions.track-order]
+verify_jwt = false
